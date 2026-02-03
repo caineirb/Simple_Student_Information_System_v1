@@ -21,8 +21,9 @@ import model.Table_Manager;
  */
 public class Data_Manager {
     // files
-    private static final String student_file = "CSV_Files\\Students.csv";
-    private static final String course_file = "CSV_Files\\Courses.csv";
+    private static final String student_file = "./CSV_Files/Students.csv";
+    private static final String course_file = "./CSV_Files/Courses.csv";
+
 
     private static HashMap<String, Course> courses = new HashMap<>(); // store the registered courses
     private static HashMap<String, Student> students = new HashMap<>(); // store the registered students
